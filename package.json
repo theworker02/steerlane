@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/steerlane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Steer identifiers and lane tokens for idempotent workflows.",
+  "bin": {
+    "steerlane": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/steerlane.git"
+  },
+  "homepage": "https://theworker02.github.io/steerlane/",
+  "keywords": [
+    "steer",
+    "lane",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
